@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
+import {Grid, Cell} from 'react-mdl';
 
 class AboutMe extends Component {
     render(){
         return(
-            
-            <h1>About Me</h1>
-            
+            <div className="page-body">
+                <br />
+            <Grid>
+                <Cell col={12}>About Me</Cell>
+                
+            </Grid>
+            </div>
         )
     }
 }

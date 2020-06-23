@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
+import {Grid, Cell} from 'react-mdl';
 
 class Projects extends Component {
     render(){
         return(
-            <h1>Projects</h1>
+            <div className="page-body">
+            <br />
+            <Grid>
+                <Cell col={12}>Projects</Cell>
+                
+            </Grid>
+            </div>
         )
     }
 }

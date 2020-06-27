@@ -1,0 +1,2 @@
+..The <Tabs> from 'react-mdl' seems to behave much like an array. The <Tabs> link has <Tab> links in it, and each one has a tabId property which corresponds as if it was an array: Starts at 0 and so on for each <Tab> element/tag
+    ..This is used within the components/projects.js

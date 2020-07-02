@@ -125,6 +125,21 @@
 }
 
 /* Resume Page */
+.resumeGrid{
+  color: white;
+}
+
+.resumeInformation{
+  text-align: center;
+}
+
+.resumeInformation hr{
+  margin: auto;
+}
+
+.resumeEducation{
+  float: right;
+}
 
 
 @media(max-width: 500px){
